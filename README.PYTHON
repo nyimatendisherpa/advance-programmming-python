@@ -1,0 +1,42 @@
+# basic python programmingn
+# task(1)
+import cmath
+a=int(input("Enter the number "))
+b=int(input("Enter the number "))
+c=int(input("Enter the third number"))
+l=(b**2)-(4*a*c)
+x1=(-b-cmath.sqrt(l))/(2*a)
+y1=(-b+cmath.sqrt(l))/(2*a)
+print('the value of x1={0} and y1={1}'.format(x1,y1))
+print(x1)
+print(y1)
+
+# 2) SWAPPING
+a=10
+b=20
+c=a
+a=b
+b=c
+print('the  value  of a after swap is:{}'.format(a))
+print('the value of b after swap is:{}'.format(b))
+num1=int(input("enter the number"))
+num2=int(input("enter the number2"))
+print('before swap')
+print(num1,num2)
+a=c
+a=b
+b=a
+print('after swap')
+print(num1,num2)
+# SWAPPING IN ANOTHER FORM
+numa=int(input('enter the number'))
+numb=int(input("enter the number "))
+print(numa,numb)
+a=a+b
+b=a-b
+a=a-b
+print("variables after swap is :")
+print(a,b)
+
+
+
