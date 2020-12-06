@@ -37,6 +37,19 @@ b=a-b
 a=a-b
 print("variables after swap is :")
 print(a,b)
+#Enter your name and age and add 100 on your age.
+name=input("Enter the name of yours")
+age=int(input("enter the age what you are"))
+year=int(input(2014-age))+100
+print(name+"will be 100 years"+age)
 
+#searching number by using decimal,octal,hexadicimal
+num=int(input("enter the number to check the decimal,octa and hexa number"))
+print("the decimal:",num,"is")
+print(bin(num),"in binary")
+print(oct(num),"in binary")
+print(hex(num),"in hexa")
+
+#
 
 
